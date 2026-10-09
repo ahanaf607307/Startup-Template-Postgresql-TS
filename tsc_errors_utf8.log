@@ -1,0 +1,89 @@
+﻿src/app/config/dbConnect.ts(3,25): error TS2835: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Did you mean './env.js'?
+src/app/config/dbConnect.ts(19,52): error TS18046: 'error' is of type 'unknown'.
+src/app/config/passport.config.ts(53,13): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Type 'string | undefined' is not assignable to type 'string'.
+      Type 'undefined' is not assignable to type 'string'.
+src/app/config/passport.config.ts(54,13): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Type 'string | undefined' is not assignable to type 'string'.
+      Type 'undefined' is not assignable to type 'string'.
+src/app/config/passport.config.ts(90,21): error TS2339: Property 'id' does not exist on type 'User'.
+src/app/config/passport.config.ts(95,62): error TS2322: Type 'unknown' is not assignable to type 'string | undefined'.
+src/app/errorHelper/appError.ts(5,10): error TS2339: Property 'statusCode' does not exist on type 'AppError'.
+src/app/lib/softDeletePlugin.ts(23,9): error TS2683: 'this' implicitly has type 'any' because it does not have a type annotation.
+src/app/middleware/checkAuthMiddleware.ts(34,46): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'string | undefined' is not assignable to parameter of type 'string | ArrayBuffer | BigInt64Array<ArrayBufferLike> | BigUint64Array<ArrayBufferLike> | ... 18 more ... | { ...; }'.
+      Type 'undefined' is not assignable to type 'string | ArrayBuffer | BigInt64Array<ArrayBufferLike> | BigUint64Array<ArrayBufferLike> | ... 18 more ... | { ...; }'.
+src/app/middleware/globalErrorHandeler.ts(53,22): error TS2339: Property 'statusCode' does not exist on type 'AppError'.
+src/app/modules/auth/auth.controller.ts(76,42): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'string | undefined' is not assignable to parameter of type 'string | ArrayBuffer | BigInt64Array<ArrayBufferLike> | BigUint64Array<ArrayBufferLike> | ... 18 more ... | { ...; }'.
+      Type 'undefined' is not assignable to type 'string | ArrayBuffer | BigInt64Array<ArrayBufferLike> | BigUint64Array<ArrayBufferLike> | ... 18 more ... | { ...; }'.
+src/app/modules/auth/auth.controller.ts(96,7): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'string | undefined' is not assignable to parameter of type 'string | ArrayBuffer | BigInt64Array<ArrayBufferLike> | BigUint64Array<ArrayBufferLike> | ... 17 more ... | { ...; }'.
+      Type 'undefined' is not assignable to type 'string | ArrayBuffer | BigInt64Array<ArrayBufferLike> | BigUint64Array<ArrayBufferLike> | ... 17 more ... | { ...; }'.
+src/app/modules/auth/auth.controller.ts(296,40): error TS2345: Argument of type '{ client_id: string | undefined; redirect_uri: string | undefined; response_type: string; scope: string; state: any; access_type: string; prompt: string; }' is not assignable to parameter of type 'string | string[][] | Record<string, string> | URLSearchParams | undefined'.
+  Type '{ client_id: string | undefined; redirect_uri: string | undefined; response_type: string; scope: string; state: any; access_type: string; prompt: string; }' is not assignable to type 'undefined'.
+src/app/modules/auth/auth.service.ts(41,22): error TS2339: Property 'BCRYPT_SALT_ROUND' does not exist on type '{ PORT: number; NODE_ENV: string | undefined; JWT_SECRET_TOKEN: string | undefined; JWT_REFRESH_TOKEN: string | undefined; JWT_EXPIRES_IN: string | undefined; JWT_REFRESH_EXPIRES_IN: string | undefined; ... 7 more ...; FRONT_END_URL: string | undefined; }'.
+src/app/modules/auth/auth.service.ts(83,22): error TS2339: Property 'BCRYPT_SALT_ROUND' does not exist on type '{ PORT: number; NODE_ENV: string | undefined; JWT_SECRET_TOKEN: string | undefined; JWT_REFRESH_TOKEN: string | undefined; JWT_EXPIRES_IN: string | undefined; JWT_REFRESH_EXPIRES_IN: string | undefined; ... 7 more ...; FRONT_END_URL: string | undefined; }'.
+src/app/modules/otp/otp.controller.ts(29,31): error TS2339: Property 'statusCode' does not exist on type 'DevBuildError'.
+src/app/modules/otp/otp.controller.ts(68,31): error TS2339: Property 'statusCode' does not exist on type 'DevBuildError'.
+src/app/modules/otp/otp.service.ts(143,7): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'string | undefined' is not assignable to parameter of type 'string | ArrayBuffer | BigInt64Array<ArrayBufferLike> | BigUint64Array<ArrayBufferLike> | ... 17 more ... | { ...; }'.
+      Type 'undefined' is not assignable to type 'string | ArrayBuffer | BigInt64Array<ArrayBufferLike> | BigUint64Array<ArrayBufferLike> | ... 17 more ... | { ...; }'.
+src/app/modules/user/user.controller.ts(103,30): error TS2339: Property 'name' does not exist on type '{}'.
+src/app/modules/user/user.controller.ts(104,31): error TS2339: Property 'email' does not exist on type '{}'.
+src/app/modules/user/user.controller.ts(110,22): error TS2339: Property 'avatarUrl' does not exist on type '{}'.
+src/app/modules/user/user.controller.ts(111,22): error TS2339: Property 'avatarUrlPath' does not exist on type '{}'.
+src/app/modules/user/user.service.ts(89,20): error TS2339: Property 'BCRYPT_SALT_ROUND' does not exist on type '{ PORT: number; NODE_ENV: string | undefined; JWT_SECRET_TOKEN: string | undefined; JWT_REFRESH_TOKEN: string | undefined; JWT_EXPIRES_IN: string | undefined; JWT_REFRESH_EXPIRES_IN: string | undefined; ... 7 more ...; FRONT_END_URL: string | undefined; }'.
+src/app/prisma/seed.ts(30,25): error TS2322: Type 'string' is not assignable to type 'UserRole | undefined'.
+src/app/utils/QueryBuilder.ts(1,31): error TS2307: Cannot find module '../constant.js' or its corresponding type declarations.
+src/app/utils/QueryBuilder.ts(8,10): error TS2339: Property 'query' does not exist on type 'QueryBuilder'.
+src/app/utils/QueryBuilder.ts(9,10): error TS2339: Property 'where' does not exist on type 'QueryBuilder'.
+src/app/utils/QueryBuilder.ts(10,10): error TS2339: Property 'orderBy' does not exist on type 'QueryBuilder'.
+src/app/utils/QueryBuilder.ts(11,10): error TS2339: Property 'select' does not exist on type 'QueryBuilder'.
+src/app/utils/QueryBuilder.ts(12,10): error TS2339: Property 'skip' does not exist on type 'QueryBuilder'.
+src/app/utils/QueryBuilder.ts(13,10): error TS2339: Property 'take' does not exist on type 'QueryBuilder'.
+src/app/utils/QueryBuilder.ts(17,31): error TS2339: Property 'query' does not exist on type 'QueryBuilder'.
+src/app/utils/QueryBuilder.ts(29,15): error TS18046: 'fields' is of type 'unknown'.
+src/app/utils/QueryBuilder.ts(30,18): error TS2339: Property 'where' does not exist on type 'QueryBuilder'.
+src/app/utils/QueryBuilder.ts(31,24): error TS2339: Property 'where' does not exist on type 'QueryBuilder'.
+src/app/utils/QueryBuilder.ts(40,16): error TS2339: Property 'where' does not exist on type 'QueryBuilder'.
+src/app/utils/QueryBuilder.ts(49,25): error TS2339: Property 'query' does not exist on type 'QueryBuilder'.
+src/app/utils/QueryBuilder.ts(55,12): error TS2339: Property 'select' does not exist on type 'QueryBuilder'.
+src/app/utils/QueryBuilder.ts(62,29): error TS2339: Property 'query' does not exist on type 'QueryBuilder'.
+src/app/utils/QueryBuilder.ts(62,54): error TS2339: Property 'query' does not exist on type 'QueryBuilder'.
+src/app/utils/QueryBuilder.ts(65,10): error TS2339: Property 'where' does not exist on type 'QueryBuilder'.
+src/app/utils/QueryBuilder.ts(83,32): error TS2339: Property 'map' does not exist on type 'never'.
+src/app/utils/QueryBuilder.ts(98,21): error TS2339: Property 'query' does not exist on type 'QueryBuilder'.
+src/app/utils/QueryBuilder.ts(123,13): error TS18046: 'fields' is of type 'unknown'.
+src/app/utils/QueryBuilder.ts(135,10): error TS2339: Property 'orderBy' does not exist on type 'QueryBuilder'.
+src/app/utils/QueryBuilder.ts(141,30): error TS2339: Property 'query' does not exist on type 'QueryBuilder'.
+src/app/utils/QueryBuilder.ts(142,31): error TS2339: Property 'query' does not exist on type 'QueryBuilder'.
+src/app/utils/QueryBuilder.ts(144,10): error TS2339: Property 'skip' does not exist on type 'QueryBuilder'.
+src/app/utils/QueryBuilder.ts(145,10): error TS2339: Property 'take' does not exist on type 'QueryBuilder'.
+src/app/utils/QueryBuilder.ts(152,19): error TS2339: Property 'where' does not exist on type 'QueryBuilder'.
+src/app/utils/QueryBuilder.ts(153,21): error TS2339: Property 'orderBy' does not exist on type 'QueryBuilder'.
+src/app/utils/QueryBuilder.ts(154,20): error TS2339: Property 'select' does not exist on type 'QueryBuilder'.
+src/app/utils/QueryBuilder.ts(155,18): error TS2339: Property 'skip' does not exist on type 'QueryBuilder'.
+src/app/utils/QueryBuilder.ts(156,18): error TS2339: Property 'take' does not exist on type 'QueryBuilder'.
+src/app/utils/QueryBuilder.ts(161,30): error TS2339: Property 'query' does not exist on type 'QueryBuilder'.
+src/app/utils/QueryBuilder.ts(162,31): error TS2339: Property 'query' does not exist on type 'QueryBuilder'.
+src/app/utils/generateToken.ts(9,8): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'string | undefined' is not assignable to parameter of type 'string | ArrayBuffer | BigInt64Array<ArrayBufferLike> | BigUint64Array<ArrayBufferLike> | ... 17 more ... | { ...; }'.
+      Type 'undefined' is not assignable to type 'string | ArrayBuffer | BigInt64Array<ArrayBufferLike> | BigUint64Array<ArrayBufferLike> | ... 17 more ... | { ...; }'.
+src/app/utils/generateToken.ts(15,8): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type 'string | undefined' is not assignable to parameter of type 'string | ArrayBuffer | BigInt64Array<ArrayBufferLike> | BigUint64Array<ArrayBufferLike> | ... 17 more ... | { ...; }'.
+      Type 'undefined' is not assignable to type 'string | ArrayBuffer | BigInt64Array<ArrayBufferLike> | BigUint64Array<ArrayBufferLike> | ... 17 more ... | { ...; }'.
+src/app/utils/sendEmail.ts(49,24): error TS2339: Property 'filename' does not exist on type 'never'.
+src/app/utils/sendEmail.ts(50,23): error TS2339: Property 'content' does not exist on type 'never'.
+src/app/utils/sendEmail.ts(51,27): error TS2339: Property 'contentType' does not exist on type 'never'.
+src/app/utils/sendEmail.ts(57,53): error TS2339: Property 'message' does not exist on type '{}'.
+src/app/utils/userTokenGenerator.ts(42,40): error TS2339: Property 'email' does not exist on type 'string | JwtPayload'.
+  Property 'email' does not exist on type 'string'.

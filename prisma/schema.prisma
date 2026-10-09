@@ -1,0 +1,48 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum UserRole {
+  SYSTEM_OWNER   @map("system_owner")
+  BUSINESS_OWNER @map("business_owner")
+  STAFF          @map("staff")
+  USER           @map("user")
+  CUSTOMER       @map("customer")
+}
+
+enum OAuthProvider {
+  email
+  google
+  facebook
+  apple
+}
+
+enum OrderStatus {
+  pending
+  paid
+  failed
+  refunded
+  cancelled
+}
+
+model User {
+  id                   String        @id @default(uuid())
+  name                 String
+  email                String        @unique
+  passwordHash         String?
+  avatarUrl            String?
+  avatarUrlPath        String?
+  role                 UserRole      @default(USER)
+  isVerified           Boolean       @default(false)
+  oauthProvider        OAuthProvider @default(email)
+  oauthProviderId      String?
+  createdAt            DateTime      @default(now())
+  updatedAt            DateTime      @updatedAt
+  forgotPasswordStatus Boolean       @default(false)
+
+  @@index([role])
+}
